@@ -105,7 +105,8 @@ text-align: center;
         <div class="chapter-bar">
           <form>
           <select class="sty" name="change" onchange="location=this.value;">
-          <option value="chapter-1.php">Chapter 1</option>
+            <option selected>Chapters</option>
+            <option value="chapter-1.php">Chapter 1</option>
           <option value="chapter-2.php">Chapter 2</option>
           <option value="chapter-3.php">Chapter 3</option>
           <option value="chapter-4.php">Chapter 4</option>

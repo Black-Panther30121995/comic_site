@@ -104,7 +104,7 @@ a{
   <div class="chapter-bar">
     <form>
       <select class="sty" name="change" onchange="location=this.value;">
-        <option selected>Chapters</option>
+      <option selected>Chapters</option>
         <option value="chapter-1.php">Chapter 1</option>
           <option value="chapter-2.php">Chapter 2</option>
           <option value="chapter-3.php">Chapter 3</option>
@@ -305,8 +305,8 @@ a{
   <img src="chapter-8/175.png">
 </div>
 <div class="footertab" style="display: flex;justify-content: center;align-items: center; flex-direction: row;">
-   <a href="chapter-7.php"><button class="chapter" style="margin-top: 20px;">&#10094</button></a>
-   <a href="chapter-9.php"><button class="chapter" style="margin-left: 10px;margin-top: 20px;">&#10095</button></a>
+   <a href="chapter-7.html"><button class="chapter" style="margin-top: 20px;">&#10094</button></a>
+   <a href="chapter-9.html"><button class="chapter" style="margin-left: 10px;margin-top: 20px;">&#10095</button></a>
  </div>
 </body>
 </html>

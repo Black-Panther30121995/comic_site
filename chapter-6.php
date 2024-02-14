@@ -95,7 +95,7 @@ a{
   <a class="main"href="page.html"><h3 class="title">NOVICS</h3></a>
 </div>
 <div class="heading1">
-  <h1 class="heading-title">JUJUTSU KAISEN</h1>
+  <h1 class="heading-title">YOUR-THRONE</h1>
 </div>
 <div class="heading2">
   <H3 class="heading-chapter">CHAPTER-6</H3>
@@ -105,7 +105,7 @@ a{
   <div class="chapter-bar">
     <form>
       <select class="sty" name="change" onchange="location=this.value;">
-        <option selected>Chapters</option>
+      <option selected>Chapters</option>
         <option value="chapter-1.php">Chapter 1</option>
           <option value="chapter-2.php">Chapter 2</option>
           <option value="chapter-3.php">Chapter 3</option>

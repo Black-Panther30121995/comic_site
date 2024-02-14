@@ -1,171 +1,174 @@
 .r1{
-    background-color: rgb(55, 151, 151);
-    font-size: 26px;
-  }
-  .image1{
-    height:180px;
-    width:33.3%;
-    object-fit:cover;
-    object-position: center;
-    box-shadow: 20px 20px 50px rgb(0, 7, 7);
-    opacity: 0.7;
-    image-resolution: from-image 300dpi;
-  }
+  background-color: rgb(55, 151, 151);
+  font-size: 26px;
+}
+.image1{
+  height:180px;
+  width:33.3%;
+  object-fit:cover;
+  object-position: center;
+  box-shadow: 20px 20px 50px rgb(0, 7, 7);
+  opacity: 0.7;
+  image-resolution: from-image 300dpi;
+}
+
+
+.container{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+
+}
+.clr{
+    color: rgb(2, 39, 66);
+}
+.checked{
+    color: rgb(255, 190, 40);
+}
+#output1{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 3px;
+    color:rgb(2, 52, 88);
+    background-color: rgb(255, 255, 255);display: table;
+    border-radius: 3px;
+}
+#output2{
+    font-style: italic;
+    display: table;
+}
+#text1{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(222, 222, 222);
+    border: none;
+    border-radius: 5px;
+}
+#text2{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(222, 222, 222);
+    border: none;
+    border-radius: 5px;
+}
+#btn1{
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+}
+#btn2{
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+}
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
   
+.rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
   
-  .container{
-      padding-top: 50px;
-      padding-left: 100px;
-      padding-bottom: 100px;
+.rating label:last-child {
+    position: static;
+}
   
-  }
-  .clr{
-      color: rgb(2, 39, 66);
-  }
-  .checked{
-      color: rgb(255, 190, 40);
-  }
-  #output1{
-      font-size: 20px;
-      font-weight: bolder;
-      padding: 3px;
-      color:rgb(2, 52, 88);
-      background-color: rgb(255, 255, 255);display: table;
-      border-radius: 3px;
-  }
-  #output2{
-      font-style: italic;
-      display: table;
-  }
-  #text1{
-      width: 150px;
-      height: 30px;
-      background-color: rgb(222, 222, 222);
-      border: none;
-      border-radius: 5px;
-  }
-  #text2{
-      width: 250px;
-      height: 30px;
-      background-color: rgb(222, 222, 222);
-      border: none;
-      border-radius: 5px;
-  }
-  #btn1{
-      width: 70px;
-      height: 30px;
-      border-radius: 8px;
-  }
-  #btn2{
-      width: 120px;
-      height: 30px;
-      border-radius: 8px;
-  }
-  .rating {
-      display: inline-block;
-      position: relative;
-      height: 50px;
-      line-height: 50px;
-      font-size: 25px;
-  }
-    
-  .rating label {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      cursor: pointer;
-  }
-    
-  .rating label:last-child {
-      position: static;
-  }
-    
-  .rating label:nth-child(1) {
-      z-index: 5;
-  }
-    
-  .rating label:nth-child(2) {
-      z-index: 4;
-  }
-    
-  .rating label:nth-child(3) {
-      z-index: 3;
-  }
-    
-  .rating label:nth-child(4) {
-      z-index: 2;
-  }
-    
-  .rating label:nth-child(5) {
-      z-index: 1;
-  }
-    
-  .rating label input {
-      position: absolute;
-      top: 0;
-      left: 0;
-      opacity: 0;
-  }
-    
-  .rating label .icon {
-      float: left;
-      color: transparent;
-  }
-    
-  .rating label:last-child .icon {
-      color: #000;
-  }
-    
-  .rating:not(:hover) label input:checked ~ .icon,
-    .rating:hover label:hover input ~ .icon {
-      color: #ffa904;
-  }
-    
-  .rating label input:focus:not(:checked) ~ .icon:last-child {
-      color: #000;
-      text-shadow: 0 0 5px #ffa904;
-  }
-  .z{
-      bottom: -20px;
-      position:relative;
-  }
-  .chap{
-      text-decoration: none;
-  }
-  .chapters{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      column-gap: 8px;
-      row-gap: 8px;
-      
-  }
-  .chapters-row{
-      background-color: rgb(244, 244, 244);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-  .chapter{
-      background-color:rgb(2, 39, 66)  ;
-      color: white;
-      font-size: 20px;
-      width:120px;
-      height:50px;
-      border:none;
-      border-radius: 5px;
-      transition: 1s;
-      text-align: center;
-  }
-  .chapter:hover{
-      cursor: pointer;
-      opacity: 0.5;
-      color: black;
-      font-weight: bold;
-  }
-  .r{
-      display: flex;
-      flex-direction: row;
-  }
+.rating label:nth-child(1) {
+    z-index: 5;
+}
   
+.rating label:nth-child(2) {
+    z-index: 4;
+}
+  
+.rating label:nth-child(3) {
+    z-index: 3;
+}
+  
+.rating label:nth-child(4) {
+    z-index: 2;
+}
+  
+.rating label:nth-child(5) {
+    z-index: 1;
+}
+  
+.rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+  
+.rating label .icon {
+    float: left;
+    color: transparent;
+}
+  
+.rating label:last-child .icon {
+    color: #000;
+}
+  
+.rating:not(:hover) label input:checked ~ .icon,
+  .rating:hover label:hover input ~ .icon {
+    color: #ffa904;
+}
+  
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #ffa904;
+}
+.z{
+    bottom: -20px;
+    position:relative;
+}
+.chap{
+    text-decoration: none;
+}
+.chapters{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 8px;
+    
+}
+.chapters-row{
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chapter{
+    background-color:rgb(2, 39, 66)  ;
+    color: white;
+    font-size: 20px;
+    width:120px;
+    height:50px;
+    border:none;
+    border-radius: 5px;
+    transition: 1s;
+    text-align: center;
+}
+.chapter:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    color: black;
+    font-weight: bold;
+}
+.r{
+    display: flex;
+    flex-direction: row;
+}
+.watching{
+    background-color: rgb(2, 52, 88);
+    color: white;
+}
