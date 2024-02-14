@@ -120,7 +120,6 @@ a{
           <option value="chapter-14.php">Chapter 14</option>
           <option value="chapter-15.php">Chapter 15</option>
           <option value="chapter-16.php">Chapter 16</option>
-      </select>
     </form>
   </div>
   <a href="chapter-15.php"><button class="chapter">&#10095</button></a>

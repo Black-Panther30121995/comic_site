@@ -10,11 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@600&family=Nunito:wght@900&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
    
-  <title>Your-Throne</title>
+   
+  <title>Bastard</title>
   <style>
-    
-         
-    .header{
+     .header{
       margin-top: 30px;
       display: flex;
       flex-direction: row;
@@ -90,63 +89,72 @@ a{
   </style>
 </head>
 <body>
-  <div class="full1">
-    <img class="logo" src="chapter-1/logo.jpg">
-
-    <a class="main"href="page.php"><h3 class="title">NOVICS</h3></a>
+<div class="full1">
+  <img class="logo" src="chapter-1/logo.jpg">
+  <a class="main"href="page.html"><h3 class="title">NOVICS</h3></a>
 </div>
 <div class="heading1">
-  <h1 class="heading-title">YOUR-THRONE</h1>
+  <h1 class="heading-title">JUJUTSU KAISEN</h1>
 </div>
 <div class="heading2">
-
   <H3 class="heading-chapter">CHAPTER-3</H3>
 </div>
-
-<div class="chapter-links">  
-     
-    <a href="chapter-2.html"><button class="chapter">&#10094</button></a>
-      
-        <div class="chapter-bar">
-          <form>
+<div class="chapter-links">
+    <a href="chapter-2.php"><button class="chapter">&#10094</button></a>
+      <div class="chapter-bar">
+        <form>
           <select class="sty" name="change" onchange="location=this.value;">
-          <option selected>Chapters</option>
-        <option value="chapter-1.php">Chapter 1</option>
-          <option value="chapter-2.php">Chapter 2</option>
-          <option value="chapter-3.php">Chapter 3</option>
-          <option value="chapter-4.php">Chapter 4</option>
-          <option value="chapter-5.php">Chapter 5</option>
-          <option value="chapter-6.php">Chapter 6</option>
-          <option value="chapter-7.php">Chapter 7</option>
-          <option value="chapter-8.php">Chapter 8</option>
-          <option value="chapter-9.php">Chapter 9</option>
-          <option value="chapter-10.php">Chapter 10</option>
-          <option value="chapter-11.php">Chapter 11</option>
-          <option value="chapter-12.php">Chapter 12</option>
-          <option value="chapter-13.php">Chapter 13</option>
-          <option value="chapter-14.php">Chapter 14</option>
-          <option value="chapter-15.php">Chapter 15</option>
-          <option value="chapter-16.php">Chapter 16</option>
+            <option selected>Chapters</option>
+            <option value="chapter-1.php">Chapter 1</option>
+            <option value="chapter-2.php">Chapter 2</option>
+            <option value="chapter-3.php">Chapter 3</option>
+            <option value="chapter-4.php">Chapter 4</option>
+            <option value="chapter-5.php">Chapter 5</option>
+            <option value="chapter-6.php">Chapter 6</option>
+            <option value="chapter-7.php">Chapter 7</option>
+            <option value="chapter-8.php">Chapter 8</option>
+            <option value="chapter-9.php">Chapter 9</option>
+            <option value="chapter-10.php">Chapter 10</option>
+            <option value="chapter-11.php">Chapter 11</option>
+            <option value="chapter-12.php">Chapter 12</option>
+            <option value="chapter-13.php">Chapter 13</option>
+            <option value="chapter-14.php">Chapter 14</option>
+            <option value="chapter-15.php">Chapter 15</option>
+            <option value="chapter-16.php">Chapter 16</option>
           </select>
-          </form>
-        </div>
-        <a href="chapter-4.php"><button class="chapter">&#10095</button></a>
+        </form>
+      </div>
+    <a href="chapter-4.php"><button class="chapter">&#10095</button></a>
 </div>
 <div class="chapter-image">
-  
-
+      <img src="chapter-3/0.png">
+      <img src="chapter-3/1.png">
+      <img src="chapter-3/2.png">
       <img src="chapter-3/3.png">
       <img src="chapter-3/4.png">
       <img src="chapter-3/5.png">
       <img src="chapter-3/6.png">
       <img src="chapter-3/7.png">
-      
-     
-  
+      <img src="chapter-3/8.png">
+      <img src="chapter-3/9.png">
+      <img src="chapter-3/10.png">
+      <img src="chapter-3/11.png">
+      <img src="chapter-3/12.png">
+      <img src="chapter-3/13.png">
+      <img src="chapter-3/14.png">
+      <img src="chapter-3/15.png">
+      <img src="chapter-3/16.png">
+      <img src="chapter-3/17.png">
+      <img src="chapter-3/18.png">
+      <img src="chapter-3/19.png">
+      <img src="chapter-3/20.png">
+      <img src="chapter-3/21.png">
+      <img src="chapter-3/22.png">
+
     </div>
-    <div class="footertab" style="display: flex;justify-content: center;align-items: center; flex-direction: row;">
-   <a href="chapter-2.php"><button class="chapter" style="margin-top: 20px;">&#10094</button></a>
-   <a href="chapter-4.php"><button class="chapter" style="margin-left: 10px;margin-top: 20px;">&#10095</button></a>
- </div>
+<div class="footertab" style="display: flex;justify-content: center;align-items: center; flex-direction: row;">
+  <a href="chapter-2.php"><button class="chapter" style="margin-top: 20px;">&#10094</button></a>
+  <a href="chapter-4.php"><button class="chapter" style="margin-left: 10px;margin-top: 20px;">&#10095</button></a>
+</div>
 </body>
 </html>

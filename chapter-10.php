@@ -91,7 +91,7 @@ a{
 <body>
 <div class="full1">
   <img class="logo" src="chapter-1/logo.jpg">
-  <a class="main"href="page.html"><h3 class="title">NOVICS</h3></a>
+  <a class="main"href="page.php"><h3 class="title">NOVICS</h3></a>
 </div>
 <div class="heading1">
   <h1 class="heading-title">YOUR-THRONE</h1>
