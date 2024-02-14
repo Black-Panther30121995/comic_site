@@ -94,7 +94,7 @@ a{
   <div class="full1">
           <img class="logo" src="chapter-1/logo.jpg">
       
-          <a class="main"href="page.html"><h3 class="title">NOVICS</h3></a>
+          <a class="main"href=""><h3 class="title">NOVICS</h3></a>
   </div>
   <div class="heading1">
         <h1 class="heading-title">YOUR-THRONE</h1>
@@ -133,48 +133,29 @@ a{
   </div>
       <div class="chapter-image">
         
-      <img src="chapter-1/0.png">
-  <img src="chapter-1/1.png">
-  <img src="chapter-1/2.png">
-  <img src="chapter-1/3.png">
-  <img src="chapter-1/4.png">
-  <img src="chapter-1/5.png">
-  <img src="chapter-1/6.png">
-  <img src="chapter-1/7.png">
-  <img src="chapter-1/8.png">
-  <img src="chapter-1/9.png">
-  <img src="chapter-1/10.png">
-  <img src="chapter-1/11.png">
-  <img src="chapter-1/12.png">
-  <img src="chapter-1/13.png">
-  <img src="chapter-1/14.png">
-  <img src="chapter-1/15.png">
-  <img src="chapter-1/16.png">
-  <img src="chapter-1/17.png">
-  <img src="chapter-1/18.png">
-  <img src="chapter-1/19.png">
-  <img src="chapter-1/20.png">
-  <img src="chapter-1/21.png">
-  <img src="chapter-1/22.png">
-  <img src="chapter-1/23.png">
-  <img src="chapter-1/24.png">
-  <img src="chapter-1/25.png">
-  <img src="chapter-1/26.png">
-  <img src="chapter-1/27.png">
-  <img src="chapter-1/28.png">
-  <img src="chapter-1/29.png">
-  <img src="chapter-1/30.png">
-  <img src="chapter-1/31.png">
-  <img src="chapter-1/32.png">
-  <img src="chapter-1/33.png">
-  <img src="chapter-1/34.png">
-  <img src="chapter-1/35.png">
-  <img src="chapter-1/36.png">
-  <img src="chapter-1/37.png">
-  <img src="chapter-1/38.png">
-  <img src="chapter-1/39.png">
-  <img src="chapter-1/40.png">
-  <img src="chapter-1/41.png">
+      <img src="chapter-1/img10.jpg">
+      <img src="chapter-1/img23.jpg">
+      <img src="chapter-1/img37.jpg">
+      <img src="chapter-1/img50.jpg">
+      <img src="chapter-1/img63.jpg">
+      <img src="chapter-1/img76.jpg">
+      <img src="chapter-1/img89.jpg">
+      <img src="chapter-1/img102.jpg">
+      <img src="chapter-1/img116.jpg">
+      <img src="chapter-1/img130.jpg">
+      <img src="chapter-1/img143.jpg">
+      <img src="chapter-1/img157.jpg">
+      <img src="chapter-1/img170.jpg">
+      <img src="chapter-1/img183.jpg">
+      <img src="chapter-1/img196.jpg">
+      <img src="chapter-1/img209.jpg">
+      <img src="chapter-1/img222.jpg">
+      <img src="chapter-1/img236.jpg">
+      <img src="chapter-1/img249.jpg">
+      <img src="chapter-1/img262.jpg">
+      <img src="chapter-1/img275.jpg">
+      <img src="chapter-1/img288.jpg">
+      <img src="chapter-1/img301.jpg">
   </div>
   <div class="footertab" style="display: flex;justify-content: center;align-items: center; flex-direction: row;">
    <button class="chapter" style="margin-top: 20px;background-color:rgb(16, 77, 121) ;opacity: 0.6;display: inline;">&#10094</button></a>
