@@ -1,9 +1,10 @@
 textarea{
-  
+  width:90%;
   height:80px;
   background-color: #fff;
   resize:none;
-  width:100%;
+  margin-left: 20px;
+
 }
 button{
   width:80px;
@@ -14,12 +15,14 @@ button{
   font-weight: 400;
   cursor: pointer;
   margin-bottom: 60px;
+  margin-left: 20px;
 }
 .comment-box{
 background-color: #fff;
 border-radius:4px ;
 padding: 20px;
 margin-bottom: 4px;
+margin-left: 20px;
 }
 
 .comment-box p{
@@ -28,5 +31,17 @@ margin-bottom: 4px;
   line-height: 16px;
   color:#282828 ;
   font-weight: 100px;
+  margin-left: 20px;
   }
   
+.watching{
+background-color: rgb(2, 52, 88);
+color: white;
+padding: 20px;
+width:200px;
+border-radius: 5px;
+height:10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}

@@ -6,7 +6,7 @@ function setComments($conn){
    $date=$_POST['date'];
    $message=$_POST['message'];
 
-   $sql="INSERT INTO comment5(uid, date, message) VALUES ('$uid','$date','$message')";
+   $sql="INSERT INTO comment3(uid, date, message) VALUES ('$uid','$date','$message')";
 
    $result = $conn->query($sql);
   }
@@ -14,7 +14,7 @@ function setComments($conn){
 }
 
 function getComments($conn){
-  $sql="SELECT * FROM comment5";
+  $sql="SELECT * FROM comment3";
   $result = $conn->query($sql);
   while(  $row=$result->fetch_assoc()){
     echo "

@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@600&family=Nunito:wght@900&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
    
-   
-  <title>Bastard</title>
+  <title>Your-Throne</title>
   <style>
-     .header{
+            
+    .header{
       margin-top: 30px;
       display: flex;
       flex-direction: row;
@@ -89,25 +89,28 @@ a{
   </style>
 </head>
 <body>
-<div class="full1">
-  <img class="logo" src="chapter-0/logo.jpg">
-  <a class="main"href="page.html"><h3 class="title">NOVICS</h3></a>
+  <div class="full1">
+    <img class="logo" src="chapter-1/logo.jpg">
+
+    <a class="main"href="page.php"><h3 class="title">NOVICS</h3></a>
 </div>
 <div class="heading1">
-  <h1 class="heading-title">BASTARD</h1>
+  <h1 class="heading-title">YOUR-THRONE</h1>
 </div>
 <div class="heading2">
+
   <H3 class="heading-chapter">CHAPTER-4</H3>
 </div>
-<div class="chapter-links">
+
+<div class="chapter-links">  
+     
     <a href="chapter-3.php"><button class="chapter">&#10094</button></a>
       
         <div class="chapter-bar">
           <form>
           <select class="sty" name="change" onchange="location=this.value;">
-            <option selected>Chapters</option>
-            <option value="chapter-0.php">Chapter 0</option>
-            <option value="chapter-1.php">Chapter 1</option>
+          <option selected>Chapters</option>
+        <option value="chapter-1.php">Chapter 1</option>
           <option value="chapter-2.php">Chapter 2</option>
           <option value="chapter-3.php">Chapter 3</option>
           <option value="chapter-4.php">Chapter 4</option>
@@ -126,7 +129,7 @@ a{
           </select>
           </form>
         </div>
-    <a href="chapter-5.php"><button class="chapter">&#10095</button></a>
+        <a href="chapter-5.php"><button class="chapter">&#10095</button></a>
   </div>
   <div class="chapter-image">
       <img src="chapter-4/0.png">
@@ -186,11 +189,110 @@ a{
       <img src="chapter-4/54.png">
       <img src="chapter-4/55.png">
       <img src="chapter-4/56.png">
+      <img src="chapter-4/57.png">
+      <img src="chapter-4/58.png">
+      <img src="chapter-4/59.png">
+      <img src="chapter-4/60.png">
+      <img src="chapter-4/61.png">
+      <img src="chapter-4/62.png">
+      <img src="chapter-4/63.png">
+      <img src="chapter-4/64.png">
       <img src="chapter-4/65.png">
-  </div>
-  <div class="footertab" style="display: flex;justify-content: center;align-items: center; flex-direction: row;">
-      <a href="chapter-3.php"><button class="chapter" style="margin-top: 20px;">&#10094</button></a>
-      <a href="chapter-5.php"><button class="chapter" style="margin-left: 10px;margin-top: 20px;">&#10095</button></a>
+      <img src="chapter-4/66.png">
+      <img src="chapter-4/67.png">
+      <img src="chapter-4/68.png">
+      <img src="chapter-4/69.png">
+      <img src="chapter-4/70.png">
+      <img src="chapter-4/71.png">
+      <img src="chapter-4/72.png">
+      <img src="chapter-4/73.png">
+      <img src="chapter-4/74.png">
+      <img src="chapter-4/75.png">
+      <img src="chapter-4/76.png">
+      <img src="chapter-4/77.png">
+      <img src="chapter-4/78.png">
+      <img src="chapter-4/79.png">
+      <img src="chapter-4/80.png">
+      <img src="chapter-4/81.png">
+      <img src="chapter-4/82.png">
+      <img src="chapter-4/83.png">
+      <img src="chapter-4/84.png">
+      <img src="chapter-4/85.png">
+      <img src="chapter-4/86.png">
+      <img src="chapter-4/87.png">
+      <img src="chapter-4/88.png">
+      <img src="chapter-4/89.png">
+      <img src="chapter-4/90.png">
+      <img src="chapter-4/91.png">
+      <img src="chapter-4/92.png">
+      <img src="chapter-4/93.png">
+      <img src="chapter-4/94.png">
+      <img src="chapter-4/95.png">
+      <img src="chapter-4/96.png">
+      <img src="chapter-4/97.png">
+      <img src="chapter-4/98.png">
+      <img src="chapter-4/99.png">
+      <img src="chapter-4/100.png">
+      <img src="chapter-4/101.png">
+      <img src="chapter-4/102.png">
+      <img src="chapter-4/103.png">
+      <img src="chapter-4/104.png">
+      <img src="chapter-4/105.png">
+      <img src="chapter-4/106.png">
+      <img src="chapter-4/107.png">
+      <img src="chapter-4/108.png">
+      <img src="chapter-4/109.png">
+      <img src="chapter-4/110.png">
+      <img src="chapter-4/111.png">
+      <img src="chapter-4/112.png">
+      <img src="chapter-4/113.png">
+      <img src="chapter-4/114.png">
+      <img src="chapter-4/115.png">
+      <img src="chapter-4/116.png">
+      <img src="chapter-4/117.png">
+      <img src="chapter-4/118.png">
+      <img src="chapter-4/119.png">
+      <img src="chapter-4/120.png">
+      <img src="chapter-4/121.png">
+      <img src="chapter-4/122.png">
+      <img src="chapter-4/123.png">
+      <img src="chapter-4/124.png">
+      <img src="chapter-4/125.png">
+      <img src="chapter-4/126.png">
+      <img src="chapter-4/127.png">
+      <img src="chapter-4/128.png">
+      <img src="chapter-4/129.png">
+      <img src="chapter-4/130.png">
+      <img src="chapter-4/131.png">
+      <img src="chapter-4/132.png">
+      <img src="chapter-4/133.png">
+      <img src="chapter-4/134.png">
+      <img src="chapter-4/135.png">
+      <img src="chapter-4/136.png">
+      <img src="chapter-4/137.png">
+      <img src="chapter-4/138.png">
+      <img src="chapter-4/139.png">
+      <img src="chapter-4/140.png">
+      <img src="chapter-4/141.png">
+      <img src="chapter-4/142.png">
+      <img src="chapter-4/143.png">
+      <img src="chapter-4/144.png">
+      <img src="chapter-4/145.png">
+      <img src="chapter-4/146.png">
+      <img src="chapter-4/147.png">
+      <img src="chapter-4/148.png">
+      <img src="chapter-4/149.png">
+      <img src="chapter-4/150.png">
+      <img src="chapter-4/151.png">
+      <img src="chapter-4/152.png">
+      <img src="chapter-4/153.png">
+      <img src="chapter-4/154.png">
+      <img src="chapter-4/155.png">
+      <img src="chapter-4/164.png">  
     </div>
-  </body>
-  </html>
+    <div class="footertab" style="display: flex;justify-content: center;align-items: center; flex-direction: row;">
+   <a href="chapter-3.php"><button class="chapter" style="margin-top: 20px;">&#10094</button></a>
+   <a href="chapter-5.php"><button class="chapter" style="margin-left: 10px;margin-top: 20px;">&#10095</button></a>
+ </div>
+</body>
+</html>

@@ -90,11 +90,11 @@ a{
 </head>
 <body>
 <div class="full1">
-  <img class="logo" src="chapter-0/logo.jpg">
+  <img class="logo" src="chapter-1/logo.jpg">
   <a class="main"href="page.html"><h3 class="title">NOVICS</h3></a>
 </div>
 <div class="heading1">
-  <h1 class="heading-title">BASTARD</h1>
+  <h1 class="heading-title">YOUR-THRONE</h1>
 </div>
 <div class="heading2">
   <H3 class="heading-chapter">CHAPTER-10</H3>
@@ -105,7 +105,6 @@ a{
     <form>
       <select class="sty" name="change" onchange="location=this.value;">
         <option selected>Chapters</option>
-        <option value="chapter-0.php">Chapter 0</option>
         <option value="chapter-1.php">Chapter 1</option>
           <option value="chapter-2.php">Chapter 2</option>
           <option value="chapter-3.php">Chapter 3</option>
