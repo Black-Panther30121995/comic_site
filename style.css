@@ -1,0 +1,573 @@
+
+.green{
+  background-color:#379683;
+}
+.light-green{
+  background-color:#5CDB95;
+}
+.dark-blue{
+  background-color:#05386B;
+}
+.face{
+  background-color: #EDF5E1;
+}
+.teal{
+  background-color:teal;
+}
+.logo{
+  height:70px;
+  width:70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.title{
+  position: absolute;
+  top: 13px;
+  color:#05386B;
+  font-family:Nunito;
+  font-size: 40px;
+}
+.books{
+  width: 1100px;
+  height: 600px;
+  box-shadow: 5px 5px 8px  rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image1{
+  /*(width: 1100px;*/
+  height: 600px;
+  border: none;
+  transition:1s;
+}
+/*.image1:hover{
+  opacity: 1;
+  width:400px;
+}*/
+.header{
+  width:100%;
+  position: relative;
+}
+.prev,.next{
+  cursor: pointer;
+  position: absolute;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+  font-size: 100px;
+  transition: 1s ;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+  opacity: 0.2;
+}
+
+.prev{
+  left:300px;
+  top: 250px;
+}
+.next{
+  right:300px;
+  top: 250px;
+}
+.prev:hover,.next:hover{
+  opacity: 1;
+}
+.container1{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1590px;
+  height: 680px;
+  padding-top: 0;
+
+}
+.show{
+  position: absolute;
+  bottom: 65px;
+}
+.slider{
+  height: 20px;
+  width: 20px;
+  border:2px solid #05386B;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 10px;
+
+}
+.slider:hover{
+  background-color: #2F3585;
+}
+.book-name{
+  color: teal;
+  font-size: 40px;
+  font-weight: 1000;
+  font-family:Verdana;
+  text-align: center;
+}
+.info{
+  color: black;
+  font-size: 19px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.fade{
+  
+  animation-name: fade;
+  animation-duration: 3s;
+}
+.fade:not(.show) {
+  opacity: 1;
+}
+@keyframes fade{
+  from{opacity: 0.4}
+  to{opacity: 1}
+}
+.thriller{
+  display: flex;
+  flex-direction: row;
+  row-gap: 14px;
+  column-gap: 14px;
+  background-color:rgb(229, 229, 231) ;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.horror{
+  display: flex;
+  flex-direction: row;
+  row-gap: 14px;
+  column-gap: 14px;
+  background-color:rgb(229, 229, 231) ;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.romance{
+  display: flex;
+  flex-direction: row;
+  row-gap: 14px;
+  column-gap: 14px;
+  background-color:rgb(229, 229, 231) ;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.historical{
+  display: flex;
+  flex-direction: row;
+  row-gap: 14px;
+  column-gap: 14px;
+  background-color:rgb(229, 229, 231) ;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.heading-thriller{
+  width:210px;
+  height: 210px;
+  background-color:	#660000;
+  color: white;
+  padding-left: 10px;
+  padding-top: 7px;
+  position: relative;
+}
+
+.heading-horror{
+  width:210px;
+  height: 210px;
+  background-color:	#660000;
+  color: white;
+  padding-left: 10px;
+  padding-top: 7px;
+  position: relative;
+}
+
+.heading-romance{
+  width:210px;
+  height: 210px;
+  background-color:	rgb(222, 116, 134);
+  color: white;
+  padding-left: 10px;
+  padding-top: 7px;
+  position: relative;
+}
+
+.heading-historical{
+  width:210px;
+  height: 210px;
+  background-color:	#3b0606;
+  color: white;
+  padding-left: 10px;
+  padding-top: 7px;
+  position: relative;
+}
+.nav-link:hover{
+  border-bottom: 5px solid teal;
+}
+.main:hover{
+  cursor: pointer;
+}
+.title:hover{
+  border-bottom: 5px solid teal;
+}
+.middle
+{
+  text-align: center;
+}
+.one{
+  display: inline-block;
+}
+.arr{
+  position: absolute;
+  right: 20px;
+}
+.thriller-1,.thriller-2,.thriller-3,.thriller-4,.thriller-5,.thriller-6
+{
+  width:210px;
+  height: 210px;
+  border: none;
+  border-radius: 5px;
+  visibility: visible;
+}
+
+.horror-1,.horror-2,.horror-3,.horror-4,.horror-5,.horror-6
+{
+  width:210px;
+  height: 210px;
+  border: none;
+  border-radius: 5px;
+  visibility: visible;
+}
+
+.romance-1,.romance-2,.romance-3,.romance-4,.romance-5,.romance-6
+{
+  width:210px;
+  height: 210px;
+  border: none;
+  border-radius: 5px;
+  visibility: visible;
+}
+
+.historical-1,.historical-2,.historical-3,.historical-4,.historical-5,.historical-6
+{
+  width:210px;
+  height: 210px;
+  border: none;
+  border-radius: 5px;
+  visibility: visible;
+}
+
+.thriller-content:hover,.thriller-content1:hover,.thriller-content2:hover,.thriller-content3:hover,.thriller-content4:hover,.thriller-content5:hover{
+  background-color: #2a0101;
+  cursor:pointer;
+}
+
+.horror-content:hover,.horror-content1:hover,.horror-content2:hover,.horror-content3:hover,.horror-content4:hover,.horror-content5:hover{
+  background-color:rgb(3, 3, 50);
+  cursor:pointer;
+}
+
+.romance-content:hover,.romance-content1:hover,.romance-content2:hover,.romance-content3:hover,.romance-content4:hover,.romance-content5:hover{
+  background-color: palevioletred;
+  cursor:pointer;
+}
+
+.historical-content:hover,.historical-content1:hover,.historical-content2:hover,.historical-content3:hover,.historical-content4:hover,.historical-content5:hover{
+  background-color: darkred;
+  cursor:pointer;
+}
+
+.thriller-content:hover .thriller-1{
+  visibility: hidden;
+}
+.thriller-content1:hover .thriller-2{
+  visibility: hidden;
+}
+.thriller-content2:hover .thriller-3{
+  visibility: hidden;
+}
+.thriller-content3:hover .thriller-4{
+  visibility: hidden;
+}
+.thriller-content4:hover .thriller-5{
+  visibility: hidden;
+}
+.thriller-content5:hover .thriller-6{
+  visibility: hidden;
+}
+
+.horror-content:hover .horror-1{
+  visibility: hidden;
+}
+.horror-content1:hover .horror-2{
+  visibility: hidden;
+}
+.horror-content2:hover .horror-3{
+  visibility: hidden;
+}
+.horror-content3:hover .horror-4{
+  visibility: hidden;
+}
+.horror-content4:hover .horror-5{
+  visibility: hidden;
+}
+.horror-content5:hover .horror-6{
+  visibility: hidden;
+}
+
+.romance-content:hover .romance-1{
+  visibility: hidden;
+}
+.romance-content1:hover .romance-2{
+  visibility: hidden;
+}
+.romance-content2:hover .romance-3{
+  visibility: hidden;
+}
+.romance-content3:hover .romance-4{
+  visibility: hidden;
+}
+.romance-content4:hover .romance-5{
+  visibility: hidden;
+}
+.romance-content5:hover .romance-6{
+  visibility: hidden;
+}
+
+.historical-content:hover .historical-1{
+  visibility: hidden;
+}
+.historical-content1:hover .historical-2{
+  visibility: hidden;
+}
+.historical-content2:hover .historical-3{
+  visibility: hidden;
+}
+.historical-content3:hover .historical-4{
+  visibility: hidden;
+}
+.historical-content4:hover .historical-5{
+  visibility: hidden;
+}
+.historical-content5:hover .historical-6{
+  visibility: hidden;
+}
+
+/*.horror-1,.horror-2,.horror-3,.horror-4,.horror-5,.horror-6
+{
+  width:210px;
+  height: 210px;
+  border: none;
+  border-radius: 5px;
+  visibility: visible;
+}
+*/
+.thriller-content:hover,.thriller-content1:hover,.thriller-content2:hover,.thriller-content3:hover,.thriller-content4:hover,.thriller-content5:hover{
+  background-color: #2a0101;
+  cursor:pointer;
+}
+
+.horror-content:hover,.horror-content1:hover,.horror-content2:hover,.horror-content3:hover,.horror-content4:hover,.horror-content5:hover{
+  background-color: #2a0101;
+  cursor:pointer;
+}
+
+.romance-content:hover,.romance-content1:hover,.romance-content2:hover,.romance-content3:hover,.romance-content4:hover,.romance-content5:hover{
+  background-color:mediumvioletred;
+  cursor:pointer;
+}
+
+.historical-content:hover,.historical-content1:hover,.historical-content2:hover,.historical-content3:hover,.historical-content4:hover,.historical-content5:hover{
+  background-color:darkred ;
+  cursor:pointer;
+}
+
+.thriller-content:hover .thriller-1{
+  visibility: hidden;
+}
+.thriller-content1:hover .thriller-2{
+  visibility: hidden;
+}
+.thriller-content2:hover .thriller-3{
+  visibility: hidden;
+}
+.thriller-content3:hover .thriller-4{
+  visibility: hidden;
+}
+.thriller-content4:hover .thriller-5{
+  visibility: hidden;
+}
+.thriller-content5:hover .thriller-6{
+  visibility: hidden;
+}
+
+.horror-content:hover .horror-1{
+  visibility: hidden;
+}
+.horror-content1:hover .horror-2{
+  visibility: hidden;
+}
+.horror-content2:hover .horror-3{
+  visibility: hidden;
+}
+.horror-content3:hover .horror-4{
+  visibility: hidden;
+}
+.horror-content4:hover .horror-5{
+  visibility: hidden;
+}
+.horror-content5:hover .horror-6{
+  visibility: hidden;
+}
+
+.romance-content:hover .romance-1{
+  visibility: hidden;
+}
+.romance-content1:hover .romance-2{
+  visibility: hidden;
+}
+.romance-content2:hover .romance-3{
+  visibility: hidden;
+}
+.romance-content3:hover .romance-4{
+  visibility: hidden;
+}
+.romance-content4:hover .romance-5{
+  visibility: hidden;
+}
+.romance-content5:hover .romance-6{
+  visibility: hidden;
+}
+
+.historical-content:hover .historical-1{
+  visibility: hidden;
+}
+.historical-content1:hover .historical-2{
+  visibility: hidden;
+}
+.historical-content2:hover .historical-3{
+  visibility: hidden;
+}
+.historical-content3:hover .historical-4{
+  visibility: hidden;
+}
+.historical-content4:hover .historical-5{
+  visibility: hidden;
+}
+.historical-content5:hover .historical-6{
+  visibility: hidden;
+}
+
+.thriller-content,.thriller-content1,.thriller-content2,.thriller-content3,.thriller-content4,.thriller-content5{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.romance-content,.romance-content1,.romance-content2,.romance-content3,.romance-content4,.romance-content5{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.horror-content,.horror-content1,.horror-content2,.horror-content3,.horror-content4,.horror-content5{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.historical-content,.historical-content1,.historical-content2,.historical-content3,.historical-content4,.historical-content5{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text,.text1,.text2,.text3,.text4,.text5{
+  position: absolute;
+  visibility: hidden;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.thriller-content:hover .text{
+  visibility: visible;
+}
+.thriller-content1:hover .text1{
+  visibility: visible;
+}
+.thriller-content2:hover .text2{
+  visibility: visible;
+}
+.thriller-content3:hover .text3{
+  visibility: visible;
+}
+.thriller-content4:hover .text4{
+  visibility: visible;
+}
+.thriller-content5:hover .text5{
+  visibility: visible;
+}
+
+.horror-content:hover .text{
+  visibility: visible;
+}
+.horror-content1:hover .text1{
+  visibility: visible;
+}
+.horror-content2:hover .text2{
+  visibility: visible;
+}
+.horror-content3:hover .text3{
+  visibility: visible;
+}
+.horror-content4:hover .text4{
+  visibility: visible;
+}
+.horror-content5:hover .text5{
+  visibility: visible;
+}
+
+.romance-content:hover .text{
+  visibility: visible;
+}
+.romance-content1:hover .text1{
+  visibility: visible;
+}
+.romance-content2:hover .text2{
+  visibility: visible;
+}
+.romance-content3:hover .text3{
+  visibility: visible;
+}
+.romance-content4:hover .text4{
+  visibility: visible;
+}
+.romance-content5:hover .text5{
+  visibility: visible;
+}
+
+.historical-content:hover .text{
+  visibility: visible;
+}
+.historical-content1:hover .text1{
+  visibility: visible;
+}
+.historical-content2:hover .text2{
+  visibility: visible;
+}
+.historical-content3:hover .text3{
+  visibility: visible;
+}
+.historical-content4:hover .text4{
+  visibility: visible;
+}
+.historical-content5:hover .text5{
+  visibility: visible;
+}
+
+
+
